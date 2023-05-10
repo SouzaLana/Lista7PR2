@@ -264,6 +264,8 @@ namespace Lista7PR2
                             Console.WriteLine("Opção inválida!");
                             break;
                     }
+                    Console.WriteLine("Quer continuar: 0-não, 1-sim");
+                    x = int.Parse(Console.ReadLine());
                     Console.ReadKey();
                 }
             }
